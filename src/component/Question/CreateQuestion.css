@@ -1,0 +1,78 @@
+.form-data {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 1%;
+    margin-right: 1%;
+    grid-gap: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 15px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    border-radius: 15px;
+    background: #555;
+}
+
+input,
+textarea,
+text,
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(224, 231, 225);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.create {
+    position: relative;
+    max-height: 58%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.oprions-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3px;
+}
+
+.create-question-bu {
+    width: auto;
+    color: white;
+    font-size: 1em;
+    height: 3em;
+    background: blue;
+    cursor: pointer;
+}
+
+.create-question-bu:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}

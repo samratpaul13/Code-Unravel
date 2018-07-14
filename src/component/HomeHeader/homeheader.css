@@ -1,0 +1,30 @@
+.home-header {
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr 1fr 0.5fr 0.5fr;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 0px 1px 14px #666666;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+}
+
+.square_btn {
+    display: inline-block;
+    padding: 0.3em 4em;
+    height: 3em;
+    text-decoration: none;
+    color: #ffffff;
+    border: solid 1px white;
+    cursor: pointer;
+    outline: none;
+    transition: .4s;
+    background-color: rgba(14, 13, 13, 0.108)
+}
+
+.square_btn:hover {
+    background: white;
+    height: 3em;
+    border: none;
+    color: black;
+}

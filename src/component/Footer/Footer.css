@@ -1,0 +1,18 @@
+.foot{
+    display:grid;
+    grid-template-columns: .25fr .5fr .25fr;
+    width:100%;
+    bottom:0;
+}
+.links{
+    display:grid;
+    grid-template-columns: .5fr .5fr;
+    color:white;
+    text-align: center;
+}
+#about-us{
+    color:white;
+}
+#contact-us{
+    color:white;
+}

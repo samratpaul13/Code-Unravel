@@ -1,0 +1,84 @@
+.create-details {
+    display: grid;
+    grid-template-rows: .1fr .9fr;
+    margin: 1% 1%;
+    padding: 3% 3%;
+    grid-gap: 2em;
+}
+
+.details-input {
+    display: grid;
+    grid-template-rows: repeat(9, .111fr);
+    grid-row-gap: 1%;
+}
+
+.first-option {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.second-option {
+    display: grid;
+    grid-template-columns: .33fr .33fr .33fr;
+}
+
+.upload-option {
+    display: grid;
+    grid-template-columns: .5fr .5fr;
+}
+
+.option-values {
+    width: 51%;
+    padding: 5px;
+    margin-right: 4%;
+    margin-left: 7%;
+    background-color: white;
+    box-shadow: 1px 3px 8px #aaa9a9;
+}
+
+.second-option-values {
+    width: 44%;
+    padding: 5px;
+    margin-right: 2%;
+    margin-left: 5%;
+    background-color: white;
+    box-shadow: 1px 3px 8px #aaa9a9;
+}
+
+.sign-in {
+    display: inline-block;
+    width: auto;
+    height: 3em;
+    text-decoration: none;
+    color: #ffffff;
+    border: solid 1px white;
+    outline: none;
+    transition: .4s;
+    background: blue;
+    cursor: pointer;
+    /* background-color: rgba(14, 13, 13, 0.108) */
+}
+
+.sign-in:hover {
+    background: white;
+    border: 1px solid black;
+    height: 3em;
+    color: black;
+}
+
+.details-body>form>input {
+    box-shadow: 1px 3px 8px #aaa9a9;
+}
+
+.location-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2%;
+}
+
+#photo,
+#resume {
+    padding: 0;
+    width: 40%;
+    margin-left: 3%;
+}

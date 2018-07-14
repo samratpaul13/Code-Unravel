@@ -1,0 +1,49 @@
+.page-header{
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr 1fr 0.5fr 0.5fr;
+    align-items: center;
+    justify-items: center;
+    /* background: red; */
+    box-shadow: 0px 1px 14px #666666;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.page-logo{
+    /* box-shadow: 0px 3px 14px #666666; */
+}
+.user-name{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    grid-gap: 0.5em;
+    justify-items: end;
+    
+}
+.user-text-decoraton{
+    font-family: 'courie';
+    font-size: large;
+    font-style: oblique
+    /* text-shadow: green; */
+    /* text-decoration-style: solid; */
+}
+.page-title{
+    color: black;
+}
+.page-square_btn {
+    display: inline-block;
+    padding: 0.3em 4em;
+    height: 3em;
+    text-decoration: none;
+    color: #ffffff;
+    border: solid 1px white;
+    /* border-radius: 15px; */
+    cursor: pointer;
+    transition: .4s;
+    /* background-color: rgba(14, 13, 13, 0.108) */
+    background-color: blue;
+}
+
+.page-square_btn:hover {
+     background: white;
+    color:black;
+    border:1px solid black;
+}

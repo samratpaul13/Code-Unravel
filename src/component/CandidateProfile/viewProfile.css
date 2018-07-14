@@ -1,0 +1,50 @@
+.profile-page-container {
+    display: grid;
+    grid-template-rows: .3fr .7fr;
+    padding: 2em;
+}
+
+.profile-details-box-left>div {
+    height: 50px;
+}
+
+.picture-social {
+    display: grid;
+    grid-template-columns: .4fr .6fr;
+}
+
+.social-connect {
+    display: grid;
+    grid-template-rows: .7fr .3fr;
+}
+
+.edit-profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#user-image {
+    widows: 80%;
+    height: 80%;
+}
+
+.edit-profile>div {
+    text-align: center;
+    align-self: center;
+}
+
+.profile-details-box {
+    display: grid;
+    height: 100%;
+    grid-template-columns: .2fr .8fr;
+    border: 2px solid black;
+    padding: 1em;
+}
+
+.profile-details-box-right {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    grid-gap: 3em;
+    grid-template-rows: repeat(12, .083fr);
+}

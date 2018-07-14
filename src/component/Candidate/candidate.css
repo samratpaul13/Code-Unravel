@@ -1,0 +1,261 @@
+.codeEditor {
+    margin: 1%;
+    background-color: rgb(200, 204, 207);
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    /* grid-gap: 5px; */
+    overflow: auto;
+}
+
+.displayContent {
+    margin-left: 0.5em;
+    margin-top: 0.55em;
+    margin-right: 0.5em;
+    display: grid;
+    border-radius: 10px;
+    padding: 10px;
+    /* border-bo: 0.5px solid greenyellow; */
+    grid-template-columns: 1fr;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0px 3px 14px #666666;
+    /* border-bottom: 2px solid grey; */
+    outline: none;
+    /* border-radius: 15px; */
+}
+
+/* ::-webkit-scrollbar { 
+    display: none; 
+} */
+
+.displayContent>div {
+    overflow: auto;
+    /* overflow: auto; */
+    margin-top: 0.25em;
+    margin-left: 1em;
+}
+
+strong {
+    margin-left: 0.5em;
+}
+
+p {
+    overflow: auto;
+}
+
+.question-header {
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 3px 14px #666666;
+}
+
+.editorDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-top: 4.3em;
+    /* margin-bottom: 5em; */
+}
+
+.selectLanguage {
+    background: black;
+    color: aliceblue;
+    font-size: 1.5em;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.selectLanguage>div {
+    margin-top: 0.6em;
+}
+
+.selectLanguage>select {
+    background-color: transparent;
+    outline: none;
+    border: 0px;
+    color: aliceblue;
+    font-size: 0.7em;
+}
+
+.selectLanguage option {
+    color: black;
+}
+
+.SampleFormat {
+    height: 200px;
+    display: grid;
+    grid-gap: 0.35em;
+    margin-top: 0.55em;
+    margin-left: 0.4em;
+    margin-right: 0.7em;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.SampleFormatDiv {
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 3px 14px #666666;
+}
+
+.SampleFormatDiv>div {
+    margin-top: 0.5em;
+    margin-left: 0.4em;
+}
+
+.Heading {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+
+.output-window {
+    resize: none;
+    outline: none;
+    overflow: auto;
+    color: darkblue;
+}
+
+sampleTestCase {
+    content: "\292B";
+    font-size: 2em;
+    font-weight: 1em;
+    color: red;
+    background-color: red;
+}
+
+.output-err {
+    resize: none;
+    outline: none;
+    overflow: auto;
+    color: red;
+}
+
+.compile-run-da {
+    background-color: darkcyan;
+    outline: none;
+    height: 70px;
+    color: lightyellow;
+    font-size: 1.5em;
+}
+
+.compile-run {
+    background-color: blue;
+    border: none;
+    outline: none;
+    height: 70px;
+    color: lightyellow;
+    font-size: 1.2em;
+    cursor: pointer;
+    box-shadow: 0px 3px 14px #666666;
+}
+
+.compile-run:hover {
+    background-color: midnightblue;
+    border: none;
+    outline: none;
+    height: 70px;
+    color: lightyellow;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.compile-submit-button {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:1em;
+}
+
+.code-commit {
+    background-color: blue;
+    border: none;
+    outline: none;
+    height: 70px;
+    color: lightyellow;
+    font-size: 1.2em;
+    cursor: pointer;
+    box-shadow: 0px 3px 14px #666666;
+}
+.code-commit:hover {
+    background-color: midnightblue;
+    border: none;
+    outline: none;
+    height: 70px;
+    color: lightyellow;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.input-window {
+    resize: none;
+    outline-color: lightseagreen;
+}
+
+.textareadis {
+    resize: none;
+    outline: none;
+    overflow: auto;
+    border: none;
+}
+
+.allTestCases {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 200px;
+    overflow: auto;
+    background: white;
+    padding:1em;
+    border-radius: 10px; 
+    background-color: white;
+    box-shadow: 0px 3px 14px #666666;
+
+}
+
+.allTestCases>strong {
+    margin-top: 0.5em;
+}
+
+.testCases {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.testPass {
+    content: "\2713";
+    font-size: 2em;
+    font-weight: 1em;
+    color: green;
+    vertical-align: sub;
+}
+
+.testFail {
+    content: "\292B";
+    font-size: 2em;
+    font-weight: 1em;
+    color: red;
+    vertical-align: sub;
+}
+.customInputOutput{
+    /* padding: 1em; */
+    margin-top: 2%;
+    /* border-radius: 10px; 
+    background-color: white;
+    box-shadow: 0px 3px 14px #666666; */
+}
+.customInputOutput>textarea{
+    border-radius: 10px; 
+    background-color: white;
+    box-shadow: 0px 3px 14px #666666;
+    outline:none;
+}
